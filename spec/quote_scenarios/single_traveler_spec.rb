@@ -44,7 +44,7 @@ describe "Quote with one traveler" do
   end
 
   context "age 45" do
-    let (:traveler) { [Traveler.new(age: 45)] }
+    let (:travelers) { [Traveler.new(age: 45)] }
 
     context "with a trip cost of $0" do
       let (:total_trip_cost) { 0 }

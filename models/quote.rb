@@ -4,8 +4,8 @@ class Quote < Model
   attr_accessor :total_trip_cost
 
   attr_accessor :travelers
-  attr_accessor :traveler
 
+  
   # Returns children ordered by age, so oldest is last.
   #
   # @return [Travelers] Array of children sorted by age, oldest last.
